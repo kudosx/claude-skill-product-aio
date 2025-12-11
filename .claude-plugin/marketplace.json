@@ -1,0 +1,22 @@
+{
+  "name": "product-aio",
+  "owner": {
+    "name": "kudosx",
+    "email": "anhv.ict91@gmail.com"
+  },
+  "metadata": {
+    "description": "Product management expert providing guidance for feature planning, user stories, PRDs, roadmaps, prioritization, and product decisions",
+    "version": "0.0.1"
+  },
+  "plugins": [
+    {
+      "name": "product-aio",
+      "description": "Product management skill providing feature planning, user stories with acceptance criteria, PRD templates, RICE prioritization framework, roadmap planning, and product decision guidance",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/product-aio"
+      ]
+    }
+  ]
+}
