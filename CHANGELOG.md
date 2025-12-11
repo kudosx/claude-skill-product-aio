@@ -12,6 +12,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - User stories format with EPIC.md and US-N-X.md templates
 - PRD structure template
 - RICE prioritization framework
-- Vietnamese language support for product documents
+- English language for all product documents
 - Folder structure conventions for spec/ directory
 - Claude plugin marketplace configuration

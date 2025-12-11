@@ -19,12 +19,12 @@ All product documents MUST be created and stored in the `spec/` folder:
 ### Stories Folder Structure
 ```
 spec/stories/
-├── epic-1-timer-management/
+├── epic-1-user-management/
 │   ├── EPIC.md              # Epic overview & story index
-│   ├── US-1-1.md            # US-1.1: Khởi động phiên làm việc
-│   ├── US-1-2.md            # US-1.2: Tạm dừng và tiếp tục
+│   ├── US-1-1.md            # US-1.1: User registration
+│   ├── US-1-2.md            # US-1.2: User login
 │   └── ...
-├── epic-2-progress-tracking/
+├── epic-2-dashboard/
 │   ├── EPIC.md
 │   ├── US-2-1.md
 │   └── ...
@@ -39,8 +39,7 @@ spec/stories/
 - Story files: `US-{epic}-{story}.md` (e.g., `US-1-1.md`, `US-2-3.md`)
 
 ### Language
-- Write all product documents in **Vietnamese**
-- Use English only for technical terms that have no clear Vietnamese equivalent
+- Write all product documents in **English**
 - Keep file names in English (lowercase, kebab-case)
 
 ### Feature Planning
@@ -53,17 +52,17 @@ spec/stories/
 
 **EPIC.md template:**
 ```markdown
-# Epic N: Tên Epic (English Name)
+# Epic N: Epic Name
 
 **ID:** EPIC-N
-**Trạng thái:** ✅ Hoàn thành | 🚧 Đang phát triển | 📋 Planned
-**Mô tả:** Mô tả ngắn gọn về epic
+**Status:** Done | In Progress | Planned
+**Description:** Brief description of the epic
 
 ## User Stories
 
-| ID | Tên | Trạng thái | File |
-|----|-----|------------|------|
-| US-N.1 | Tên story | ✅ Done | [US-N-1.md](US-N-1.md) |
+| ID | Name | Status | File |
+|----|------|--------|------|
+| US-N.1 | Story name | Done | [US-N-1.md](US-N-1.md) |
 
 ## RICE Score Summary
 [Table of scores]
@@ -71,21 +70,21 @@ spec/stories/
 
 **Story file template (US-N-X.md):**
 ```markdown
-# US-N.X: Tên Story
+# US-N.X: Story Name
 
-**Epic:** [Tên Epic](EPIC.md)
-**Trạng thái:** ✅ Done | 🚧 In Progress | 📋 Planned
-**Độ ưu tiên:** Critical | High | Medium | Low
+**Epic:** [Epic Name](EPIC.md)
+**Status:** Done | In Progress | Planned
+**Priority:** Critical | High | Medium | Low
 
 ---
 
-## Mô tả
+## Description
 
 As a [user type],
 I want [goal/desire],
 So that [benefit/value].
 
-## Tiêu chí chấp nhận
+## Acceptance Criteria
 
 - [ ] Specific, testable criterion
 - [ ] Another criterion
